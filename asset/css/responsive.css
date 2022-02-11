@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px) {
+    .mobile-app,
+    .desktop,
+    .browser,
+    .tv,
+    .command,
+    .vpn,
+    .vpn .imgs4 {
+        padding-left: 0;
+    }
+    .category-list {
+        top: 0%;
+        left: 100%;
+        width: auto;
+    }
+    .category-list__item {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
+    .navbar {
+        display: none;
+        text-align: -webkit-center;
+    }
+    .speedtest {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 30px;
+    }
+    .speedtest,
+    .mobile-app,
+    .desktop,
+    .browser,
+    .tv,
+    .command,
+    .vpn {
+        min-height: 600px;
+    }
+    .speedtest p,
+    .speedtest span,
+    .speedtest h1,
+    .mobile-app p,
+    .desktop p,
+    .browser p,
+    .tv p,
+    .command p,
+    .vpn p {
+        font-size: 14px;
+    }
+    .speedtest-app img,
+    .vpn .imgs4,
+    .browser img,
+    .speedtest img,
+    .tv img,
+    .command img,
+    .vpn img {
+        width: 100%;
+        height: auto;
+    }
+    .ap {
+        font-size: 13px;
+    }
+}

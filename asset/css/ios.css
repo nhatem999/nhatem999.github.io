@@ -1,0 +1,108 @@
+.navigation a {
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation {
+    padding-bottom: 50px;
+}
+
+.navigation i,
+.navigation .active {
+    color: #9193a8;
+}
+
+.speedtest-ios {
+    color: var(--white-color);
+}
+
+.speedtest-app {
+    background-color: #0b0c1b;
+    min-height: 750px;
+    padding-top: 141px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.speedtest-ios h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 26px;
+}
+
+.speedtest-ios .img-ios {
+    width: 192px;
+    height: 56px;
+    margin-bottom: 26px;
+}
+
+.speedtest-ios span {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.speedtest-ios p {
+    margin-top: 26px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.detail {
+    border-top: 1px solid #202131;
+    margin-top: 40px;
+    color: var(--white-color);
+}
+
+.detail_list {
+    margin-top: 26px;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.speedtest-app .imgs {
+    margin-left: 35px;
+}
+
+.line {
+    position: relative;
+}
+
+.video p,
+.speedtest-vpn p {
+    margin-top: 26px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.video {
+    margin-top: -60px;
+}
+
+.video .detail {
+    border: none;
+    padding-left: 70px;
+}
+
+.hr-gradient {
+    background: linear-gradient( 90deg, #6afff3 10%, #1cbfff 50%, #bf71ff 90%);
+    margin-top: 30px;
+    border: none;
+    height: 4px;
+    border-width: 0;
+    border-color: transparent;
+    background-image: linear-gradient(to right, #6afff3 20%, #1cbfff 40%, #1cbfff 60%, #bf71ff 80%);
+}
+
+.video .img-ios {
+    width: 192px;
+    height: auto;
+    margin: 26px 0px;
+}
+
+.app-store {
+    display: flex;
+}
